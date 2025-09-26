@@ -9,6 +9,7 @@ from . import models, schemas, auth
 from .database import get_db
 
 
+
 app = FastAPI()
 
 # Enable CORS for frontend
