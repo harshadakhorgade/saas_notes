@@ -6,7 +6,7 @@ function App() {
   const [note, setNote] = useState("");
   const [error, setError] = useState("");
 
-  const API_URL = "http://127.0.0.1:8000"; // change to deployed backend later
+  const API_URL = "https://saas-backend.vercel.app"; // change to deployed backend later
 
   const login = async (email, password) => {
     try {
